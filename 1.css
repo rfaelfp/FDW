@@ -1,0 +1,15 @@
+div {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+.corpo {
+    background: #6768a3;
+    height: auto auto;
+    border: auto auto;
+    font-size: 10px;
+    width: 210px;
+    height: 290px;
+    padding:  1px;
+    border-left-style: dotted;
+}
