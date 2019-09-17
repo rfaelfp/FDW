@@ -1,4 +1,4 @@
-var num1, num2, resp
+var num1, num2
 
 num1 = parseInt(prompt("Digite o primeiro número: "))
 if (num1 <= 0)
@@ -8,5 +8,4 @@ else
     if (num2 <= 0)
     alert("O número deve ser maior que zero!")
     else
-    Math.log(num1) / Math.log(num2)
-    document.write()
+    document.write(Math.log(num1) / Math.log(num2))
