@@ -7,6 +7,6 @@ else
     num2 = parseInt(prompt("Digite segundo número: "))
     if (num2 <= 0)
     alert("O número deve ser maior que zero!")
-else
-    Math.log(num1, num2)
-
+    else
+    Math.log(num1) / Math.log(num2)
+    document.write()
