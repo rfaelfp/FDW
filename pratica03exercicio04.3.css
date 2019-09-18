@@ -1,6 +1,7 @@
-.result {
+div {
     margin:0;
     padding: 15rem;
+    background-color: black;
     color: blue;
     text-align: center;
     font-size:10rem;
