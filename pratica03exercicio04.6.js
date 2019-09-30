@@ -1,9 +1,10 @@
 function calculaJurosComposto () {
-    c = parseInt(prompt("Informe o capital inicial: "))
+let c, t, i, m, result
+    c = parseFloat(prompt("Informe o capital inicial: "))
     if (c <= 0 | c == NaN)
         alert("O número tem que ser inteiro!")
     else
-        t = parseInt(prompt("Informe o numero de dias: "))
+        t = parseFloat(prompt("Informe o numero de dias: "))
             if (t <= 0 | t == NaN)
                 alert("O número tem que ser inteiro!")
             else 
@@ -13,5 +14,6 @@ function calculaJurosComposto () {
                 else
                     i = i / 100
                     m = c * Math.pow((1 + i), t)
-                    document.write("O resultado é " + m)
+                    result = m
+                    document.write("O resultado é " + result.toFixed(2))
 }
