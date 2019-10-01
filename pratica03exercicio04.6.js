@@ -15,5 +15,5 @@ let c, t, i, m, result
                     i = i / 100
                     m = c * Math.pow((1 + i), t)
                     result = m
-                    document.write("O resultado é " + result.toFixed(2))
+                    document.write("O resultado é " + result)
 }
