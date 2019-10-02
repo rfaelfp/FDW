@@ -29,8 +29,8 @@ var operacao = parseInt(prompt("Informe o código de operação desejada:  \n" +
             var i, n = prompt("Informe um número")
             console.log(("Números adicionados mais 3 no intervalo [0, " + n + "]:"))
             
-            for (i = 0; i <= n; i = Math.pow(i))
-            console.log(i)
+            for (i = 0; i <= n; i = Math.pow(2, i))
+            document.write(i + "<br>")
             break
             default:
             alert("A rotina finalizou.")
