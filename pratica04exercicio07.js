@@ -29,7 +29,7 @@ var operacao = parseInt(prompt("Informe o código de operação desejada:  \n" +
                 if (n <= i)
                 alert("O número não pode ser menor que o primeiro")
                 else {
-                console.log(("Números adicionados mais 3 no intervalo [" + i + n + "]:"))
+                console.log(("Potência base 2 no intervalo [" + i + " a " + n + "]:"))
                 for (i ; i <= n; i)
                 document.write(Math.pow(2, i++) + "<br>")
         }
