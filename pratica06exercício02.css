@@ -6,6 +6,7 @@ body {
     margin: 0;
     background-color: beige;
     border: 0;
+    text-align: center;
 }
 button {
     color: red;
@@ -24,7 +25,8 @@ p {
     color:white;
     background-color: rgb(128, 157, 236);
     text-align: center;
-    padding: 1rem
+    padding: 1rem;
+    border: .1rem solid black;
 }
 ul {
     text-align: center;
@@ -41,5 +43,6 @@ li {
 #resposta {
     color: black;
     font-size: 3rem;
-    text-align: justify
+    color: beige;
+    text-decoration: underline;
 }
