@@ -1,5 +1,5 @@
 function mediaAritimetica () {
-    var f, i = prompt("Informe a quantidade de entradas:")
+    var i = prompt("Informe a quantidade de entradas:")
     i = parseInt(i)
  var vet = new Array (i);
  for (i = 0; i < vet.length; i++) {
