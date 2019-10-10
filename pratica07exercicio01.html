@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,10 @@
     <link rel="stylesheet" href="pratica07exercicio01.css">
     <script type="text/javascript" src="pratica07exercicio01.js"></script>
 </head>
+
 <body>
-    <table id="tabela1">
-        <thead class="cabec">
+    <table>
+        <thead id="tabela1">
             <th>Nome do Aluno</th>
             <th>Nota P1</th>
             <th>Nota P2</th>
@@ -18,62 +20,66 @@
             <th>Faltas</th>
         </thead>
         <tbody>
-            <tr input type="text" onmouseover="myFunction()">
-            <td >Ana</td>
-            <td>28</td>
-            <td>17</td>
-            <td>27</td>
-            <td class="total">73</td>
-            <td class="faltas">0</td>
+            <tr input type="text" class=linha onclick="aprovadoReprovado()">
+                <td>Ana</td>
+                <td>28</td>
+                <td>17</td>
+                <td>27</td>
+                <td id="total">69</td>
+                <td id="faltas">3</td>
             </tr>
 
-            <tr>
-            <td >Gisele</td>
-            <td>28</td>
-            <td>18</td>
-            <td>24</td>
-            <td>70</td>
-            <td>3</td>
-            </tr>
-            
-
-            <tr>
-            <td >Jane</td>
-            <td>26</td>
-            <td>20</td>
-            <td>24</td>
-            <td>70</td>
-            <td>1</td>
+            <tr input type="text" class=linha onclick="aprovadoReprovado1()">
+                <td>Gisele</td>
+                <td>28</td>
+                <td>18</td>
+                <td>24</td>
+                <td id="total1">69</td>
+                <td id="faltas1">3</td>
             </tr>
 
-            <tr>
-            <td >Jorge</td>
-            <td>25</td>
-            <td>19</td>
-            <td>29</td>
-            <td>73</td>
-            <td>0</td>
+            <tr input type="text" class=linha onclick="aprovadoReprovado2()">
+                <td>Jane</td>
+                <td>26</td>
+                <td>20</td>
+                <td>24</td>
+                <td id="total2">70</td>
+                <td id="faltas2">1</td>
             </tr>
 
-            <tr>
-            <td >Marina</td>
-            <td>30</td>
-            <td>17</td>
-            <td>27</td>
-            <td>73</td>
-            <td>0</td>
+            <tr input type="text" class=linha onclick="aprovadoReprovado3()">
+                <td>Jorge</td>
+                <td>25</td>
+                <td>19</td>
+                <td>29</td>
+                <td id="total3">73</td>
+                <td id="faltas3">0</td>
+            </tr>
+
+            <tr input type="text" class=linha onclick="aprovadoReprovado4()">
+                <td>Marina</td>
+                <td>30</td>
+                <td>17</td>
+                <td>27</td>
+                <td id="total4">73</td>
+                <td id="faltas4">0</td>
             </tr>
         </tbody>
-        <tfoot><tr>
-            <td class="media">Média</td>
-            <td class="media">71.8</td>
-        </tr></tfoot>
+        <tfoot>
+            <tr>
+                <td class="media">Média</td>
+                <td class="media">71.8</td>
+            </tr>
+        </tfoot>
     </table>
-    <table id="tabela2">
-        <thead>
-            <th>Resultado</th>
-            <th></th>
+    <table>
+        <thead id="tab2">
+            <th>Resultado:</th>
+            <th>
+                <p id="resultado"></p>
+            </th>
         </thead>
     </table>
 </body>
+
 </html>
