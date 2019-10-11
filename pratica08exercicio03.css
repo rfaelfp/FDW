@@ -1,0 +1,24 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    --tam_img: 12rem;
+    --width: 5rem;
+    --height: 5rem;
+    --border: 2px solid green;
+    --tam: 15rem;
+    --margin: .3rem;
+}
+img {
+    width: var(--tam_img);
+    height: var(--tam_img);
+    float: left;
+    padding: 1rem;
+}
+.quadro {
+    border: var(--border);
+    width: var(--tam);
+    height:var(--tam);
+    float:left;
+    margin: var(--margin);
+    overflow: auto;
+}
