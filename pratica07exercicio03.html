@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório - Prática 07 - Exercício 02</title>
+    <link rel="stylesheet" href="pratica07exercicio03.css">
+    <script type="text/javascript" src="pratica07exercicio03.js"></script>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr id="head">
+                <th>Disciplina</th>
+                <th>Aluno</th>
+                <th>P1</th>
+                <th>P2</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="child" rowspan="6">Web</td>
+            </tr>
+            <tr input onclick="notaMedia(this)" type="number" class="child">
+                <td>José da Silva</td>
+                <td>30</td>
+                <td>10</td>
+                <td class="total">40</td>
+            </tr>
+            <tr onclick="notaMedia(this)" input type="number" class="child">
+                <td>Maria da Silva</td>
+                <td>25</td>
+                <td>7</td>
+                <td class="total">32</td>
+            </tr>
+            <tr class="child" input type="text" onclick="notaMedia(this)">
+                
+                <td>Ronildo Graves</td>
+                <td>12</td>
+                <td>3</td>
+                <td>15</td>
+            </tr>
+            <tr class="child" input type="text" onclick="notaMedia(this)">
+                
+                <td>Joselita Santos</td>
+                <td>15</td>
+                <td>8</td>
+                <td></td>
+            </tr>
+            <tr class="child">
+                <td colspan="4" class="media">Média Web: 27,5</td>
+            </tr>
+            <tr>
+                    <td class="child2" rowspan="7">Lógica de Programação</td>
+            <tr class="child2" input type="text" onclick="notaMedia(this)">
+                <td>José da Silva</td>
+                <td>20</td>
+                <td>9</td>
+                <td>29</td>
+            </tr>
+            <tr class="child2" input type="text" onclick="notaMedia(this)">
+                
+                <td>Maria da Silva</td>
+                <td>32</td>
+                <td></td>
+                <td>32</td>
+            </tr>
+            <tr class="child2" input type="text" onclick="notaMedia(this)">
+                
+                <td>Ronildo Graves</td>
+                <td>18</td>
+                <td>5</td>
+                <td>23</td>
+            </tr>
+            <tr class="child2" input type="text" onclick="notaMedia(this)">
+                
+                <td>Ronildo Campos</td>
+                <td>35</td>
+                <td>0</td>
+                <td>35</td>
+            </tr>
+            <tr class="child2" input type="text" onclick="notaMedia(this)">
+                
+                <td>Janaina Murtosa</td>
+                <td>30</td>
+                <td>10</td>
+                <td>40</td>
+            </tr>
+                <tr class="child2">
+                    <td colspan="4">Média Lógica da Programação: 31,8</td>
+                </tr>
+    </table>
+    <div>
+        <p id=resultado></p>
+    </div>
+</body>
+</html>

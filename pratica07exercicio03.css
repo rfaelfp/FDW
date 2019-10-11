@@ -1,0 +1,43 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:16px;
+}
+table {
+    margin: auto;
+}
+thead {
+    color: white;
+    background-color: rgb(73, 73, 216);
+
+}
+table, th {
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+table, td {
+    border: 1px solid white;
+    vertical-align: top;
+}
+td, th {
+    padding: 0.5rem 3rem;
+    text-align: left;
+}
+.child {
+    background-color:rgb(158, 210, 240);
+}
+.child2 {
+    background-color:rgb(240, 240, 118);
+}
+.child:hover, .child2:hover {
+    background-color: orangered;
+}
+p {
+    background-color: rgb(116, 18, 18);
+    margin: auto;
+    color: rgb(223, 110, 110);
+    border: 2px solid rgb(223, 110, 110);
+    text-align: center;
+    width: 52.5rem;
+    height: 5rem;
+    margin-top: 2rem;
+}
