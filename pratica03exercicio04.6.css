@@ -1,3 +1,7 @@
 body {
-    color: aquamarine;
+    color: red;
+    background-color: black;
+    font-size: 5rem;
+    text-align: center;
+    padding: 10rem
 }

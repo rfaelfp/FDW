@@ -2,7 +2,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
 }
-body {
+div {
     border: .1rem solid black;
     text-align: center;
+    background: lightgreen;
+    width: max-content;
+    margin: auto;
+    color: black;
 }

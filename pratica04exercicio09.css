@@ -5,7 +5,9 @@
 body {
     color: red;
     background-color: black;
-    font-size: 5rem;
+    font-size: 2rem;
     text-align: center;
-    padding: 10rem
+}
+script {
+    border: 2px solid black;
 }

@@ -24,7 +24,7 @@ function maiorMenor() {
     }
         resp=confirm("Deseja tentar novamente?")
         if (resp == false)
-        alert("Rotina encerrada!")
+        alert("Rotina concluída!")
         else 
         document.location.reload(true);
     

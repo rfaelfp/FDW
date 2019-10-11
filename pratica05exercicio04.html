@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laboratório - Prática 05 - Exercício 04</title>
+    <title>Laboratório - Prática 05 - Exerício 03</title>
     <link rel="stylesheet" href="pratica05exercicio04.css">
     <script type="text/javascript" src="pratica05exercicio04.js"></script>
 </head>
 <body>
-    <form>
-        <input type="radio" name="operacao" value="aretangulo" id="aretangulo" checked> Área do Retángulo<br>
-        <input type="radio" name="operacao" value="atriangulo"> Área do Triangulo<br>
-        <input type="radio" name="operacao" value="atrapezio"> Área do Trapézio
-    </form>
-    <h1>Números Pares</h1>
-    <div class="numero">
-        Informe o valor da base: <input type="number" id="base">
-    </div>
-    <div class="numero">
-        Informe o valor da altura: <input type="number" id="altura">
-    </div>
-    <button onclick="aretangulo ()">Área do Retangulo</button>
-    <div id="numeros" class="resultado"></div>
+    <main>
+        <h1>Área</h1>
+        <div class="numero">
+            Valor da Base (base menor): <input type="number" id="base">
+        </div>
+        <div class="numero">
+            Valor da Altura (base maior): <input type="number" id="altura">
+        </div>
+        <div class="numero">
+            Altura do Trapézio<input type="number" id="alturatrapezio">
+        </div>
+        <div id="botao">
+            <input type="button" value="Área do Retângulo" id="operacao" onclick="operacao(1);">
+            <input type="button" value="Área do Triângulo" id="operacao" onclick="operacao(2);">
+            <input type="button" value="Área do Trapézio" id="operacao" onclick="operacao(3);">
+        </div>
+        <div id="numeros" class="resultado">
+        </div>
+        <p>* Para calcular a área do trapézio utilizar os campos base menor, base maior e altura do trapézio, para as demais operações utilizar os dois primeiros campos.</p>
+    </main>
 </body>
 </html>

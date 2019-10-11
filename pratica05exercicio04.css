@@ -4,13 +4,7 @@ html, body {
     height: 95%;
 }
 main {
-    margin: 2rem auto;  /* O primeiro valor será atribuído
-                        às margens superior e inferior.
-                        O segundo valor será atribuído
-                        às margens direita e esquerda.
-                        A palavra 'auto' indica que o
-                        valor deve ser calculado
-                        automaticamente.*/
+    margin: 2rem auto;
     width:32rem;
     height: 30rem;
 }
@@ -33,4 +27,7 @@ h1 {
 }
 input {
     text-align: right;
+}
+#botao {
+    text-align: center;
 }
