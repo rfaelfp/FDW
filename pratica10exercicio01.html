@@ -20,40 +20,43 @@
         <article>
             <img src="rio.jpg" alt="imagem rio de janeiro">
             <h2>Rio de Janeiro</h2>
-                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
+                <button onclick="mostrarInfo(this.id)" id="rio">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="bali.jpg" alt="imagem de bali">
             <h2>Bali</h2>
-                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
+                <button onclick="mostrarInfo (this.value)" value="bali">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="londres.jpg" alt="imagem londres">
             <h2>Londres</h2>
-                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
+                <button onclick="mostrarInfo (this.value)" value="londres">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="sydney.jpg" alt="imagem de sydney">
             <h2>Sydney</h2>
-                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
+                <button onclick="mostrarInfo (this.value)" value="sydney">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="lisboa.jpg" alt="imagem de lisboa">
             <h2>Lisboa</h2>
-                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
+                <button onclick="mostrarInfo (this.value)" value="lisboa">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="amsterdam.jpg" alt="imagem de amsterdam">
             <h2>Amsterdam</h2>
-                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
+                <button onclick="mostrarInfo (this.value)" value="amsterdam">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
-        <div id="info"><i class="fas fa-window-close fa-2x" onclick="esconderInfo ()"></i></div>
+        <div id="info"><i class="fas fa-window-close fa-2x" onclick="esconderInfo ()"></i>
+            <h3 id="info2"></h3>
+        </div>
     </main>
     <footer>
         <div id="social">
             <i class="fab fa-facebook-square fa-lg" class="social">&nbsp@Facebook</i><br>
             <i class="fab fa-instagram fa-lg" class="social">&nbsp@Instagram</i><br>
-            <i class="fab fa-twitter fa-lg"  class="social">&nbsp@Twitter</i><br>
+            <a href="https://fontawesome.com/" class="social"><i class="fab fa-font-awesome-flag fa-lg">&nbspFont Awesome</i></a><br>
+            <i class="fas fa-map-marker-alt fa-sm" class="social">&nbspRua dos Aimorés, 1451 - Lourdes, Belo Horizonte - MG, 30140-071</i><br>
         </div><br>
             <input type="email" placeholder="E-mail" id="caixa">
             <input type="button" name="enviar" value="Cadastrar" id="botao">
