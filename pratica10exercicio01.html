@@ -6,48 +6,57 @@
     <title>Laboratório - Prática 10 - Exercício 01</title>
     <link rel="stylesheet" href="pratica10exercicio01.css">
     <script type="text/javascript" src="pratica10exercicio01.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
-<body>
+<body onload="esconderInfo ()">
     <header>
-        <img src="logo.jpg" alt="logotipo" width="300rem" height="150rem">
+        <img src="logo.jpg" alt="logotipo" width="300rem" height="150rem" id="logo">
     </header>
     <section>
         <h1>A melhor agência de viagens!</h1>
     </section>
+
     <main class="destinos">
         <article>
             <img src="rio.jpg" alt="imagem rio de janeiro">
             <h2>Rio de Janeiro</h2>
-                <a href="">Orçamento</a>
+                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="bali.jpg" alt="imagem de bali">
             <h2>Bali</h2>
-                <a href="">Orçamento</a>
+                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="londres.jpg" alt="imagem londres">
             <h2>Londres</h2>
-                <a href="">Orçamento</a>
+                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="sydney.jpg" alt="imagem de sydney">
             <h2>Sydney</h2>
-                <a href="">Orçamento</a>
+                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="lisboa.jpg" alt="imagem de lisboa">
             <h2>Lisboa</h2>
-                <a href="">Orçamento</a>
+                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
         <article>
             <img src="amsterdam.jpg" alt="imagem de amsterdam">
             <h2>Amsterdam</h2>
-                <a href="">Orçamento</a>
+                <button onclick="mostrarInfo ()">Orçamento&nbsp&nbsp<i class="fas fa-search-dollar fa-lg"></i></button>
         </article>
+        <div id="info"><i class="fas fa-window-close fa-2x" onclick="esconderInfo ()"></i></div>
     </main>
     <footer>
-        inp
+        <div id="social">
+            <i class="fab fa-facebook-square fa-lg" class="social">&nbsp@Facebook</i><br>
+            <i class="fab fa-instagram fa-lg" class="social">&nbsp@Instagram</i><br>
+            <i class="fab fa-twitter fa-lg"  class="social">&nbsp@Twitter</i><br>
+        </div><br>
+            <input type="email" placeholder="E-mail" id="caixa">
+            <input type="button" name="enviar" value="Cadastrar" id="botao">
     </footer>
 </body>
 </html>
