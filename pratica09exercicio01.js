@@ -17,9 +17,3 @@ function reescrever () {
     if (site.value == "")
     site.value = "https://"
 }
-
-
-function limpar() {
-    document.getElementsByClassName("limpar").value = ""
-
-}

@@ -10,5 +10,10 @@ form {
     position: absolute;
 }
 input {
-    margin-left: 3rem;
+    margin: .4rem;
+}
+.entrada {
+    width: 12rem;
+    display: inline-block;
+    margin-left: 6rem;
 }

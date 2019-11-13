@@ -10,28 +10,28 @@
 <body>
     <form action="" name="formularioCadastro" onsubmit="verificaFormulario ()">
         <label>Login:</label>
-        <input type="text" name="nome" class="limpar" placeholder="Digite seu nome"><br>
+        <input type="text" name="nome" class="entrada" placeholder="Digite seu nome"><br>
         <label>E-mail:</label>
-        <input type="email" name="email" class="limpar" placeholder="Digite seu e-mail"><br>
+        <input type="email" name="email" class="entrada" placeholder="Digite seu e-mail"><br>
         <label>Data de Nascimento:</label>
-        <input type="date" name="dataNascimento" placeholder="Data de Nascimento"><br>
+        <input type="date" name="dataNascimento" class="entrada"><br>
         <label>Senha:</label>
-        <input type="password" name="senha" class="limpar" placeholder="Senha"><br>
+        <input type="password" name="senha" class="entrada" placeholder="Senha"><br>
         <label>Confirmar Senha:</label>
-        <input type="password" name="contraSenha" class="limpar" placeholder="Confirmar Senha"><br>
+        <input type="password" name="contraSenha" class="entrada" placeholder="Confirmar Senha"><br>
         <label>Sexo:</label>
-            <select name="sexo">
+            <select name="sexo" class="entrada">
                 <option value="selecione">Selecione</option>
                 <option value="masculino">Masculino</option>
                 <option value="feminino">Feminino</option>
             </select><br>
         <label>Home-Page:</label>
-        <input type="site" name="site" id="site" class="limpar" value="https://" onmousemove="reescrever ()" placeholder="Home-Page"><br>
+        <input type="site" name="site" id="site" class="entrada" value="https://" onmousemove="reescrever ()" placeholder="Home-Page"><br>
         <label>Interesses:</label>
-        <input type="checkbox" name="nome" value="">Música                                                       
+        <input type="checkbox" name="nome"  value="">Música                                                
         <input type="checkbox" name="nome" value="">Esporte                                                       
-        <input type="checkbox" name="nome" value="">Moda<br>                                               
-        <input type="button" value="Limpar" onclick="limpar ()">
+        <input type="checkbox" name="nome"  value="">Moda<br>                                               
+        <input type="reset" value="Limpar">
         <input type="submit" value="Cadastrar">
     </form>                                               
 </body>
