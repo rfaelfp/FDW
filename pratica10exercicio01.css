@@ -26,6 +26,7 @@ article {
 .destinos img {
     width: 30rem;
     height: 20rem;
+    border-radius: 10px;
 
 }
 footer {
@@ -39,6 +40,8 @@ button {
     height: 2.5rem;
     margin-bottom: 1rem;
     border-radius: 10px;
+    font-weight: bolder;
+    color: white;
 }
 #social {
     clear: left;
