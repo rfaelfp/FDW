@@ -16,12 +16,17 @@ h1 {
     height: 10rem;
     border:0;
 }
+main {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
 article {
     float: left;
     text-align: center;
-    padding-left: 13rem;
+    padding-left: 13%;
     position: relative;
-    left: 10%;
+    /*left: 10%;*/
 }
 .destinos img {
     width: 30rem;
