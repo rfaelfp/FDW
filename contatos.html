@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Confeitaria Maria Chocolate</title>
+	<link rel="stylesheet" href="pratica11exercicio01.css">
+	<script type="text/javascript" src="pratica11exercicio01.js"></script>
+</head>
+<body>
+	
+	<header>
+		<div class="logoImg">
+			<img src="imagens/logo.png" alt="Maria Chocolate" height="100" />
+		</div>
+
+		<div class="titulo">
+			<h1>Confeitando para a alegria da sua vida...</h1>
+		</div>
+
+	</header>
+	<nav>
+		<ul>
+			<li><a href="pratica11exercicio01.html" >Home</a></li>
+			<li><a href="#" >Bolos</a></li>
+			<li><a href="#" >Tortas</a></li>
+			<li><a href="#" >Festas</a></li>
+			<li><a href="contatos.html" >Contatos</a></li>			
+		</ul>
+
+	</nav>
+	<div>
+		<form name="formularioCadastro" onsubmit="verificaFormulario ()">
+			<section id="formulario">
+				<label>Nome</label>
+				<input name="nome" type="name" class="caixa"><br>
+				<label>E-mail</label>
+				<input name="email" type="email" class="caixa"><br>
+				<label>Tipo de Contato</label>
+				<select name="" id="lista">
+					<option value="Elogio">Elogio</option>
+					<option value="Critica">Critica</option>
+					<option value="Opnião">Opnião</option>
+				</select><br>
+				<label id="msg" class="caixa">Mensagem</label>
+				<textarea name="mensagem" cols="30" rows="5"></textarea><br>
+				<input type="checkbox">Quero receber mensagens deliciosas...<br>
+				<input type="submit" value="Enviar" id="botao">
+				<div id="resposta"></div>
+			</section>
+		</form>
+	</div>
+	<footer>
+		<p>Desenvolvido como exercício da disciplina Fundamentos de Desenvolvimento Web. ©Copyright 2019. Todos os Direitos Reservados.</p>
+	</footer>
+
+
+</body>
+</html>

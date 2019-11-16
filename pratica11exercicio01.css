@@ -1,0 +1,103 @@
+html, body {
+    font-family: Verdana;
+    font-size: 16px;
+    margin: 0;
+}
+header {
+    background-color: #ffbbdd;
+    display: flex;
+    padding: .3rem;
+
+
+}
+.titulo {
+    display: inline-table;
+    color: white;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    position: fixed;
+    left: 35%;
+    margin-top: .8rem;
+
+}
+nav {
+    background-color: #f0b0d0;
+    height: 4rem;
+}
+ul {
+    margin: 0;
+    position: relative;
+    top: 35%;
+    padding-left: 1rem;
+}
+li {
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+    color:white;
+    font-family: Tahoma;
+    font-weight: bold;
+
+}
+li:hover {
+    background-color: #ffbbdd;
+    width: 2rem;
+}
+.produto {
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    margin: 1rem;
+}
+.produtoImagem {
+    margin: .5rem;
+}
+.detalhes {
+    background-color: #e5e5e5;
+    text-align: center;
+    padding: .1rem 0 1rem 0;
+}
+.preco {
+    font-weight: bold;
+}
+#formulario {
+    display: inline-block;
+    widows: 10rem;
+    padding-top: 2rem;
+    position: relative;
+    left: 35%;
+}
+
+section > * {
+    margin: .5rem;
+}
+#lista {
+    width: 220px;
+    height: 21px;
+}
+.caixa {
+    width: 220px;
+}
+#botao {
+    background-color: #ffbbdd;
+    width: 22rem;
+    height: 2rem;
+}
+#msg {
+    vertical-align: top;
+}
+option {
+    text-align: right;
+}
+
+footer {
+    background-color: #ffbbdd;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
