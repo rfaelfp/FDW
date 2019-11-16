@@ -1,0 +1,37 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+header {
+    text-align: center;
+    color: white;
+    background-color: orangered;
+    height: 7rem;
+    font-size: 26px;
+}
+h1 {
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: black;
+
+}
+.caixa {
+    margin: 1rem;
+}
+img {
+    width: 180px;
+    height: 250px;
+}
+
+footer {
+    background-color: orangered;
+    height: 5rem;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
