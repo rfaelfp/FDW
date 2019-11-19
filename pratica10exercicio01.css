@@ -63,7 +63,12 @@ i {
 }
 #botao {
     position: absolute;
-    left: 54.2%;
+    left: 56%;
+}
+#pergunta {
+    position: absolute;
+    left: 29%;
+    font-weight: bold;
 }
 #info {
     display: block;
@@ -82,4 +87,17 @@ i {
     transform: translate(-50%, -50%);
     border-radius: 10px;
     margin: 0;
+    
+}
+.fa-facebook-square {
+    margin-left: 2em;
+}
+.fa-instagram {
+    margin-left: 2em;
+}
+.fa-font-awesome-flag {
+    margin-left: 2em;
+}
+.fa-map-marker-alt {
+    margin-left: 2em;
 }

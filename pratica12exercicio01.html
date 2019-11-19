@@ -15,14 +15,14 @@
             <p id="info4"></p>
         </div>
         <header>
-            <h1>Cine FliX</h1>
+            <h1>Cine FliX</h1><i class="fas fa-ticket-alt fa-lg"></i>
         </header>
         <div class="container">
             <div class="caixa">
-                <img onclick="mostrarInfo (this.id)" id="filme1" src="imgpratica12/img1.jpg" alt="filme ford v ferrari">    
+                <img onmousemove="mostrarInfo (this.id)" onmouseout="esconderInfo ()" id="filme1" src="imgpratica12/img1.jpg" alt="filme ford v ferrari">    
             </div>
             <div class="caixa">
-                <img onclick="mostrarInfo (this.id)" id="filme2" src="imgpratica12/img2.jpg" alt="filme star wars">    
+                <img onmousemove="mostrarInfo (this.id)" onmouseout="esconderInfo ()" id="filme2" src="imgpratica12/img2.jpg" alt="filme star wars">    
             </div>
             <div class="caixa">
                 <img onclick="mostrarInfo (this.id)" id="filme3" src="imgpratica12/img3.jpg" alt="filme coringa">    
@@ -45,7 +45,9 @@
         </div>
     </div>
     <footer>
-        <div><i class="fas fa-phone-alt"></i></div>
+        <span style="margin-left: 2em;">
+                <i class="fas fa-ticket-alt fa-lg"></i>
+        </span>
     </footer>
 </body>
 </html>
