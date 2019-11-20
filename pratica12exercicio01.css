@@ -2,6 +2,7 @@ html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
     margin: 0;
+    background-color: black;
 }
 header {
     text-align: center;
@@ -29,12 +30,15 @@ img {
 
 
 footer {
+    position: fixed;
+    height: 6rem;
     background-color: orangered;
-    height: 7rem;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
+
 #info {
     display: block;
     text-align: left;

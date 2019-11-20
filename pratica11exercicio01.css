@@ -65,12 +65,10 @@ li:hover {
 }
 #formulario {
     display: inline-block;
-    widows: 10rem;
     padding-top: 2rem;
     position: relative;
     left: 35%;
 }
-
 section > * {
     margin: .5rem;
 }

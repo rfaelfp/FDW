@@ -1,0 +1,28 @@
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+main {
+    width: 20rem;
+    margin: .5rem auto;
+}
+section {
+    border: 3px solid black;
+    padding: .75rem;
+}
+header {
+    text-align: center;
+}
+figure {
+    width: 18.2rem;
+    margin: 0;
+}
+img {
+    width: 18rem;
+    height: 10rem;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0
+}

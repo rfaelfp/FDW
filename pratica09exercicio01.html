@@ -8,7 +8,7 @@
     <script type="text/javascript" src="pratica09exercicio01.js"></script>
 </head>
 <body>
-    <form action="" name="formularioCadastro" onsubmit="verificaFormulario ()">
+    <form action="" name="formularioCadastro" onsubmit="verificaFormulario ()" onsubmit="todosCampos ()">
         <label>Login:</label>
         <input type="text" name="nome" class="entrada" placeholder="Digite seu nome"><br>
         <label>E-mail:</label>
@@ -28,9 +28,9 @@
         <label>Home-Page:</label>
         <input type="site" name="site" id="site" class="entrada" value="https://" onmousemove="reescrever ()" placeholder="Home-Page"><br>
         <label>Interesses:</label>
-        <input type="checkbox" name="nome"  value="">Música                                                
-        <input type="checkbox" name="nome" value="">Esporte                                                       
-        <input type="checkbox" name="nome"  value="">Moda<br>                                               
+        <input type="checkbox" value="">Música                                                
+        <input type="checkbox" value="">Esporte                                                       
+        <input type="checkbox" value="">Moda<br>                                               
         <input type="reset" value="Limpar">
         <input type="submit" value="Cadastrar">
     </form>                                               
