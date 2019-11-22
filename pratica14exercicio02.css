@@ -10,11 +10,6 @@ button {
     height: 2rem;
     margin: 1rem;
 }
-.embranco {
-    border: 2px solid green;
-    width: 63rem;
-    height: 32rem;
-}
 .container {
     border: 2px solid green;
     display: inline-block;
