@@ -6,18 +6,21 @@ function verificaFormulario () {
     var nome = formulario.nome.value
     var email = formulario.email.value
     var data = formulario.dataNascimento.value
-    var contraSenha = formulario.contraSenha.value
+    var controleCampos = true
+    var controleSenha = true
 
-    if (senha != contraSenha) {
-        alert("Senhas diferentes")
-    }
-    if (sexo == "selecione") {
-        alert("Gentileza escolher o sexo")
-    }
-    if (nome.value != "" && email.value != "" && data.value != "")
-    alert("Cadastrado!")
-    else 
-    alert("Preencher todos os campos")
+    if (senha != contraSenha) 
+        controleSenha = false 
+    if (nome == "" || email == "" || data == "" || senha == "" || sexo == "selecione")
+        controleCampos = false
+
+    if (controleSenha == false) 
+    alert("As senhas não combinam")
+    if (controleCampos == false)
+    alert("Gentileza preencher todos os campos")
+    if (controleSenha == true && controleCampos == true)
+    alert("Cadastrado") 
+
 }
 
 function reescrever () {
