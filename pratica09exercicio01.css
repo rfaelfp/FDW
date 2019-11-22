@@ -17,3 +17,12 @@ input {
     display: inline-block;
     margin-left: 6rem;
 }
+#botao {
+    margin-left: 0;
+}
+#sexo {
+    margin-left: 8.7rem;
+}
+#confirmarSenha {
+    margin-left: 2rem;
+}
